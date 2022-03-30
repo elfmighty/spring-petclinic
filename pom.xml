@@ -10,7 +10,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.3.3.RELEASE</version>
+    <version>2.6.3.RELEASE</version>
   </parent>
   <name>petclinic</name>
 
@@ -22,14 +22,14 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- Web dependencies -->
-    <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
+    <webjars-bootstrap.version>5.1.6</webjars-bootstrap.version>
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
     <webjars-jquery.version>2.2.4</webjars-jquery.version>
     <wro4j.version>1.8.0</wro4j.version>
 
-    <jacoco.version>0.8.5</jacoco.version>
-    <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
-    <spring-format.version>0.0.25</spring-format.version>
+    <jacoco.version>0.8.7</jacoco.version>
+    <nohttp-checkstyle.version>0.0.10/nohttp-checkstyle.version>
+    <spring-format.version>0.0.31</spring-format.version>
     <wavefront.version>2.0.1</wavefront.version>
   </properties>
 
@@ -179,12 +179,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.1.2</version>
         <dependencies>
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>8.32</version>
+            <version>8.45.1</version>
           </dependency>
           <dependency>
             <groupId>io.spring.nohttp</groupId>
